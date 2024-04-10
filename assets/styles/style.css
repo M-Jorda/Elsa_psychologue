@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(230, 230, 230);
+  overflow-x: hidden;
+}
+
+img {
+  height: auto;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lora {
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
+.link {
+  cursor: pointer;
+}
+
+p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #363062;
+  text-align: justify;
+}
+
+/* ---------------------HEADER---------------------*/
+
+.banner {
+  img {
+    width: 150px;
+  }
+
+  .left {
+    left: -5px;
+    transform: rotate(90deg);
+  }
+
+  .right {
+    bottom: -50px;
+    right: -5px;
+    transform: rotate(-90deg);
+  }
+}
+
+.navbar {
+  z-index: 1000;
+  width: 100%;
+
+  ul {
+    width: 50vw;
+
+    li {
+      font-size: calc(0.4rem + 1vw);
+      font-weight: 600;
+      padding: 0 1%;
+    }
+
+    li:hover,
+    a:hover {
+      color: rgb(114, 113, 113);
+    }
+  }
+}
+
+/* ---------------------MAIN---------------------*/
+
+/* TEXTE : F5EEE6 */
+main {
+  padding: 25vh;
+}
+
+/*                   HOME                           */
+.titulaire p {
+  padding-right: 20%;
+}
+
+/*                   TARIF                        */
+
+.pic {
+  margin-top: 7%;
+}
+
+/*                   CONTACT                        */
+
+.contact p {
+  text-align: center;
+}
+
+/* ---------------------FOOTER---------------------*/
+
+.footer {
+  background: rgb(230, 230, 230);
+  color: #363062;
+  height: 100px;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  bottom: 0;
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.arrows {
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 10px;
+  padding-bottom: 40px;
+  transition: bottom 0.5s ease-in-out, background-image 0.5s ease-in-out;
+  z-index: 1000;
+}
+
+.arrowDownFooter {
+  bottom: 90px;
+  background-image: url("../img/icons/down.webp");
+}
+
+.arrowUpFooter {
+  bottom: 0px;
+  background-image: url("../img/icons/up.webp");
+}
+
+.footer.activeFooter {
+  opacity: 0;
+  transform: translateY(100%);
+}

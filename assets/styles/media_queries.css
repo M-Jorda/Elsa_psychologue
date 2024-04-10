@@ -1,0 +1,94 @@
+@media (max-width: 1199px) {
+  .banner img {
+    width: 100px;
+  }
+}
+
+/*                   767                        */
+
+@media (max-width: 768px) {
+  main {
+    padding-top: 0;
+    margin-bottom: 13vh;
+  }
+
+  header {
+    height: 15vh;
+    background: rgba(230, 230, 230, 0.932);
+
+    .banner {
+      img {
+        width: 15%;
+        height: auto;
+      }
+
+      .left {
+        left: -5px;
+        transform: rotate(90deg);
+      }
+
+      .right {
+        right: -10px;
+        transform: rotate(-90deg);
+        top: 50px;
+      }
+    }
+
+    nav {
+      top: 15px !important;
+
+      .nav {
+        width: 110vw;
+        top: 250px;
+        opacity: 0;
+        pointer-events: none;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out,
+          background-color 0.5s ease-in-out, left 0.5s ease-in-out;
+        left: -50vw !important;
+        transform: translateY(-119%);
+
+        ul {
+          width: 110vw;
+          background-color: rgba(230, 230, 230, 0.932);
+
+          li {
+            font-size: 1rem !important;
+          }
+        }
+      }
+
+      .activeHeader {
+        transform: translateY(-365px);
+        opacity: 1;
+        pointer-events: inherit;
+      }
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+  }
+
+  .titulaire p {
+    padding-right: 0;
+  }
+
+  .hideNav {
+    pointer-events: none;
+  }
+
+  .arrows {
+    bottom: -50px;
+  }
+}
+
+/*                   575                        */
+
+@media (max-width: 575px) {
+  p {
+    font-size: 1.2rem;
+  }
+}
