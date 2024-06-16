@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elsadestenabes-psychologue.fr/sitemap.xml

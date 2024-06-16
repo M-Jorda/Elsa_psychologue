@@ -15,6 +15,7 @@ function openCloseNav(e) {
   }
 }
 
+// Si un lien est cliqué la nav se referme
 document.addEventListener("click", function (e) {
   if (navOpened && !nav.contains(e.target) && !burger.contains(e.target)) {
     nav.classList.remove("activeHeader");
@@ -42,6 +43,7 @@ arrowFooter.onclick = openCloseFooter;
 
 const links = document.querySelectorAll(".link");
 
+// Lorsque un lien est cliqué remonte en haut de page
 links.forEach((link) => {
   link.addEventListener("click", function () {
     window.scrollTo({
