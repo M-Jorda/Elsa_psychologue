@@ -1,7 +1,7 @@
 # Project: Website for Destenabes Elsa - Clinical Psychologist
 
 ## Links
-- [French Version](README/README_FR.md)
+- [Version en français](README/README_FR.md)
 - [Versión en Español](README/README_ES.md)
 
 ## Description

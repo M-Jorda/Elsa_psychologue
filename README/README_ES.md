@@ -2,7 +2,7 @@
 
 ## Enlaces
 - [Versión en francés](README/README_FR.md)
-- [Versión en Español](README/README_ES.md)
+- [English version](../README.md)
 
 ## Descripción
 Este proyecto consiste en la creación de un sitio web para Destenabes Elsa, psicóloga clínica y psicoterapeuta. El sitio permite presentar sus servicios de psicoterapia, facilitar la programación de citas en línea y ofrecer información práctica sobre sus consultas.
