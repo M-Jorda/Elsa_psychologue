@@ -1,7 +1,7 @@
 # Proyecto: Sitio Web para Destenabes Elsa - Psicóloga Clínica
 
 ## Enlaces
-- [Versión en francés](README/README_FR.md)
+- [Versión en francés](README_FR.md)
 - [English version](../README.md)
 
 ## Descripción
